@@ -195,6 +195,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /*
+         * Modules Service Providers...
+         */
+        App\Modules\Billing\BillingProvider::class,
+        App\Modules\Cart\CartProvider::class,
+        App\Modules\Profil\ProfilProvider::class,
+        App\Modules\User\UserProvider::class,
     ],
 
     /*
